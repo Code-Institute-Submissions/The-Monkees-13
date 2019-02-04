@@ -1,0 +1,73 @@
+/*navbar adjustments*/
+.mr-auto, .mx-auto {
+    margin-left: auto!important;
+    margin-right: 0!important;
+}
+
+.navbar-dark .navbar-brand {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+     color: white; 
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url(../images/my_burger_bar.png);
+}
+
+.navbar {
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    border: 0;
+}
+
+/*landing page*/
+.landing-container {
+    text-align: center;
+    width: 100%;
+}
+
+.landing-container h1 {
+    font-size: 5em;
+    margin: 25px 0;
+    padding: 0;
+}
+
+.main-welcome {
+    margin-bottom: 10%;
+    margin-top: 56px;
+    background-image: url(../images/monkees.jpg);
+    background-size: cover;
+    height: -webkit-fill-available;
+}
+
+.main-welcome a {
+    margin: 0 10px;
+}
+
+.centralWelcome {
+    position: relative;
+    top: 20%;
+    left: auto;
+}
+
+/*general*/
+
+
+.button {
+    color:grey;
+    background-color:blue;
+}
+
+.col-sm {
+    padding: 0;
+}
