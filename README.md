@@ -54,6 +54,8 @@ I have kept the wirframes greyscale as I don't want any planned colour schemes t
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
+- navbar:
+..* This navbar is similar to the one bootstrap demo's but with some diferences in breakpoints for burger button. 
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
 - ...
@@ -91,6 +93,12 @@ In addition, you should mention in this section how your project looks and works
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
+1. Navbar:
+    1. Open index page
+    2. hover over links to see hover classes
+    3. collapse browser to see breakpoint for burger-button, test browser button
+    4. 
+
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Deployment
@@ -111,8 +119,11 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The photos used in this site were obtained from ...
+The photos used in this site were obtained from:
+     https://github.com/Code-Institute-Org/project-assets (Provided assets)
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+I received inspiration for this project from:
+- silversunpickups.com
+- www.entershikari.com

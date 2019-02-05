@@ -30,21 +30,28 @@
     border: 0;
 }
 
+.bg-custom {
+    background-color: rgba(0,0,0,0.7);
+}
+
 /*landing page*/
 .landing-container {
     text-align: center;
     width: 100%;
+    z-index: 0;
+    margin-top:-25px;
 }
 
 .landing-container h1 {
     font-size: 5em;
-    margin: 25px 0;
+    margin: 25px 0 0;
     padding: 0;
+    color: whitesmoke;
+    background-color: rgba(0,0,0,0.7);
 }
 
 .main-welcome {
-    margin-bottom: 10%;
-    margin-top: 56px;
+    color: whitesmoke;
     background-image: url(../images/monkees.jpg);
     background-size: cover;
     height: -webkit-fill-available;
@@ -60,14 +67,43 @@
     left: auto;
 }
 
+.centralWelcome .btn-info {
+    margin-top: 1.5rem;
+    background-color: #444;
+    border: 1px solid black;
+    transition: all 0.5s;
+}
+
+.centralWelcome .btn-info:hover {
+    background-color: #666;
+    border: 1px solid #222;
+    color: #222;
+}
+
+/*footer*/
+footer {
+    background-color: rgba(0,0,0,0.7);
+    text-align: center;
+    color: lightgray;
+}
+footer h5 {
+    margin: 1rem 0;
+    font-size: .8rem;
+}
+
 /*general*/
 
-
-.button {
-    color:grey;
-    background-color:blue;
+main {
+    
 }
 
 .col-sm {
     padding: 0;
+}
+
+@media(max-width:768px) {
+    .centralWelcome .btn {
+        margin-top: 1.5rem;
+        width: 60%
+    }
 }
