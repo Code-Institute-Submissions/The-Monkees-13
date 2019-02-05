@@ -35,14 +35,14 @@
 }
 
 /*landing page*/
-.landing-container {
+.home-container {
     text-align: center;
     width: 100%;
     z-index: 0;
     margin-top:-25px;
 }
 
-.landing-container h1 {
+.home-container h1 {
     font-size: 5em;
     margin: 25px 0 0;
     padding: 0;
@@ -85,21 +85,75 @@ footer {
     background-color: rgba(0,0,0,0.7);
     text-align: center;
     color: lightgray;
+    padding-bottom: 1.5rem;
 }
 footer h5 {
     margin: 1rem 0;
     font-size: .8rem;
 }
 
+footer a {
+    font-size: 1.1rem;
+    margin: 0 .2rem 10px;
+}
+
 /*general*/
 
-main {
-    
+html, body {
+    height: 100%;
 }
 
 .col-sm {
     padding: 0;
 }
+
+
+/*uniform classes across all pagess*/
+
+.uniform-container {
+    text-align: center;
+    width: 100%;
+    z-index: 0;
+    margin-top:-25px;
+    padding: 0;
+}
+
+.uniform-container h1 {
+    font-size: 2em;
+    margin: 25px 0 0;
+    padding: 0;
+    color: whitesmoke;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.uniformWelcome {
+    position: relative;
+    top: 60%;
+    left: auto;
+}
+
+.section-position {
+    padding-top: 100px;
+}
+
+.col-sm-4 {
+    padding: 0;
+}
+
+/*ABout page*/
+
+
+
+.uniform-image {
+    color: whitesmoke;
+    background-image: url(../images/monkees.jpg);
+    background-size: cover;
+    height: 350px;
+}
+
+
+
+/*Queries*/
 
 @media(max-width:768px) {
     .centralWelcome .btn {
