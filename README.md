@@ -118,6 +118,10 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
+- The text for aboout.html was copied from the [Wikipedia article The Monkees](https://en.wikipedia.org/wiki/The_Monkees)
+
+- Some formatting code for the footer sections was inspired by [How to keep your footer where it belongs](https://medium.freecodecamp.org/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c)
+
 ### Media
 The photos used in this site were obtained from:
      https://github.com/Code-Institute-Org/project-assets (Provided assets)
