@@ -96,12 +96,31 @@ footer h5 {
     font-size: .8rem;
 }
 
+.footer-p {
+    font-size: .8rem;
+    margin: 0;
+}
+
+.footer-link {
+    font-size: .8rem;
+    color: whitesmoke;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.footer-link:hover {
+    color: black;
+    text-decoration: none;
+}
+
+
+/*social links in footer*/
+
 footer a {
     font-size: 1.1rem;
     margin: 0 .2rem 10px;
 }
 
-/*social links in footer*/
 .social-link {
     transition: all .5s;
 }
