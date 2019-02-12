@@ -56,13 +56,8 @@ In this section, you should go over the different parts of your project, and des
  
 - navbar:
 ..* This navbar is similar to the one bootstrap demo's but with some diferences in breakpoints for burger button. 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- image carousel
+..* The image carousel uses bootstrap css transitions to create a fluid gallery that doesn't take up too much real estate.
 
 ### Features Left to Implement
 - Another feature idea
@@ -121,6 +116,8 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The text for aboout.html was copied from the [Wikipedia article The Monkees](https://en.wikipedia.org/wiki/The_Monkees)
 
 - Some formatting code for the footer sections was inspired by [How to keep your footer where it belongs](https://medium.freecodecamp.org/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c)
+
+- The song facts were copied from [song facts.com] (https://www.songfacts.com/facts/the-monkees/songname)
 
 ### Media
 The photos used in this site were obtained from:

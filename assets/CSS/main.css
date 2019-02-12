@@ -187,7 +187,7 @@ body {
     padding-top: 100px;
 }
 
-.col-sm-4 {
+.col-sm-4 .col .col-md-8 .col-md-4 {
     padding: 0;
 }
 
@@ -235,6 +235,9 @@ form label {
     margin-bottom: 0;
 }
 
+
+/* carousel*/
+
 .carousel-container {
     width: 60%;
     margin: 20px auto;
@@ -253,6 +256,30 @@ form label {
     color: red;
 }
 
+
+/*music*/
+
+.music-btn {
+    font-size: 1.8rem;
+    color: darkblue;
+}
+
+.description {
+    min-height: 80px;
+    padding: 0;
+}
+
+.description p {
+    font-size: .9rem;
+    margin: 0;
+}
+
+.audio-controls {
+    min-height: 80px;
+    padding:0;
+}
+
+
     /*Queries*/
 
 @media(max-width:768px) {
@@ -266,4 +293,8 @@ form label {
     .section-position {
         padding-top: 10px;
     }    
+
+    .music-btn {
+        font-size: 1.2rem;
+    }
 }
