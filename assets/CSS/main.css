@@ -235,7 +235,25 @@ form label {
     margin-bottom: 0;
 }
 
-/*Queries*/
+.carousel-container {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.carousel-item {
+    overflow: hidden;
+    width: 100%;
+    }
+
+.carousel-item img {
+    width: 100%;
+    }
+
+.carousel-caption {
+    color: red;
+}
+
+    /*Queries*/
 
 @media(max-width:768px) {
     .centralWelcome .btn {
