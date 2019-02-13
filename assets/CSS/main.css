@@ -143,12 +143,10 @@ body {
     box-sizing: border-box;
 }
 
-.col-sm {
+.col, .col-md-8, .col-md-4, .col-sm-8, .col-sm-4, .col-sm{
     padding: 0;
 }
-.col-sm-8 {
-    padding: 0;
-}
+
 
 #page-container {
     position: relative;
@@ -185,10 +183,6 @@ body {
 
 .section-position {
     padding-top: 100px;
-}
-
-.col-sm-4 .col .col-md-8 .col-md-4 {
-    padding: 0;
 }
 
 

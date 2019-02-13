@@ -9,8 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--bootstrap-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <!--my CSS-->
     <link rel="stylesheet" href="assets/CSS/main.css">
     <!--fonts-->
@@ -78,8 +77,10 @@
                                     Now available for live performances! Make sure your party rocks <a href="#">here!</a>
                                 </div>
                                 <h2>Music</h2>
-                                <p>The Monkees have performed so many hits its hard to count! here are just a few of their number ones!
-                                    Who knows maybe one day you'll be hearing these same songs performed LIVE! .. Hmm, if only there was some way make that happen.
+                                <p>The Monkees have performed so many hits its hard to count! here are just a few of
+                                    their number ones!
+                                    Who knows maybe one day you'll be hearing these same songs performed LIVE! .. Hmm,
+                                    if only there was some way make that happen.
                                 </p>
                             </div>
                         </div>
@@ -94,61 +95,61 @@
                                 <audio id="musicFour" src="assets/audio/SteppingStone.mp3" type="audio/mpeg"> </audio>
 
                                 <div class="audio-controls">
-                                    <button class="btn music-btn" onclick="document.getElementById('musicOne').play()"><i
-                                            class="fa fa-play-circle"></i></button>
-                                    <button class="btn music-btn" onclick="document.getElementById('musicOne').pause()"><i
-                                            class="fa fa-pause-circle"></i></button>
-                                    <button class="btn music-btn" onclick="document.getElementById('musicOne').volume += 0.1"><i
-                                            class="fa fa-volume-up"></i></button>
-                                    <button class="btn music-btn" onclick="document.getElementById('musicOne').volume -= 0.1"><i
-                                            class="fa fa-volume-down"></i></button>
+                                    <button class="btn music-btn" id="playOne"><i class="fa fa-play-circle"></i></button>
+                                    <button class="btn music-btn" id="pauseOne"><i class="fa fa-pause-circle"></i></button>
+                                    <button class="btn music-btn" id="volUpOne"><i class="fa fa-volume-up"></i></button>
+                                    <button class="btn music-btn" id="volDowOne"><i class="fa fa-volume-down"></i></button>
                                 </div>
                                 <div class="audio-controls">
-                                    <button class="btn music-btn" onclick="document.getElementById('musicTwo').play()"><i
-                                            class="fa fa-play-circle"></i></button>
-                                    <button class="btn music-btn" onclick="document.getElementById('musicTwo').pause()"><i
-                                            class="fa fa-pause-circle"></i></button>
-                                    <button class="btn music-btn" onclick="document.getElementById('musicTwo').volume += 0.1"><i
-                                            class="fa fa-volume-up"></i></button>
-                                    <button class="btn music-btn" onclick="document.getElementById('musicTwo').volume -= 0.1"><i
-                                            class="fa fa-volume-down"></i></button>
+                                    <button class="btn music-btn" id="playTwo"><i class="fa fa-play-circle"></i></button>
+                                    <button class="btn music-btn" id="pauseTwo"><i class="fa fa-pause-circle"></i></button>
+                                    <button class="btn music-btn" id="volUpTwo"><i class="fa fa-volume-up"></i></button>
+                                    <button class="btn music-btn" id="volDowTwo"><i class="fa fa-volume-down"></i></button>
                                 </div>
                                 <div class="audio-controls">
-                                    <button class="btn music-btn" onclick="document.getElementById('musicThree').play()"><i
-                                            class="fa fa-play-circle"></i></button>
-                                    <button class="btn music-btn" onclick="document.getElementById('musicThree').pause()"><i
-                                            class="fa fa-pause-circle"></i></button>
-                                    <button class="btn music-btn" onclick="document.getElementById('musicThree').volume += 0.1"><i
-                                            class="fa fa-volume-up"></i></button>
-                                    <button class="btn music-btn" onclick="document.getElementById('musicThree').volume -= 0.1"><i
-                                            class="fa fa-volume-down"></i></button>
+                                    <button class="btn music-btn" id="playThree"><i class="fa fa-play-circle"></i></button>
+                                    <button class="btn music-btn" id="pauseThree"><i class="fa fa-pause-circle"></i></button>
+                                    <button class="btn music-btn" id="volUpThree"><i class="fa fa-volume-up"></i></button>
+                                    <button class="btn music-btn" id="volDowThree"><i class="fa fa-volume-down"></i></button>
                                 </div>
                                 <div class="audio-controls">
-                                    <button class="btn music-btn" onclick="document.getElementById('musicFour').play()"><i
-                                            class="fa fa-play-circle"></i></button>
-                                    <button class="btn music-btn" onclick="document.getElementById('musicFour').pause()"><i
-                                            class="fa fa-pause-circle"></i></button>
-                                    <button class="btn music-btn" onclick="document.getElementById('musicFour').volume += 0.1"><i
-                                            class="fa fa-volume-up"></i></button>
-                                    <button class="btn music-btn" onclick="document.getElementById('musicFour').volume -= 0.1"><i
-                                            class="fa fa-volume-down"></i></button>
+                                    <button class="btn music-btn" id="playFour"><i class="fa fa-play-circle"></i></button>
+                                    <button class="btn music-btn" id="pauseFour"><i class="fa fa-pause-circle"></i></button>
+                                    <button class="btn music-btn" id="volUpFour"><i class="fa fa-volume-up"></i></button>
+                                    <button class="btn music-btn" id="volDowFour"><i class="fa fa-volume-down"></i></button>
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="col col-md-8">
                             <div class="description">
-                                   <p><strong>song: </strong>Clarksville <small class="song-text">- This was The Monkees' first single. It was released shortly after their TV show started on NBC and got a lot of publicity as a result. The Monkees followed it up with another hit, "I'm A Believer," and had several more chart entries before their show was canceled in 1968. Eventually, the group wrote their own songs and played their own instruments.</small></p>
+                                <p><strong>song: </strong>Clarksville <small class="song-text">- This was The Monkees'
+                                        first single. It was released shortly after their TV show started on NBC and
+                                        got a lot of publicity as a result. The Monkees followed it up with another
+                                        hit, "I'm A Believer," and had several more chart entries before their show was
+                                        canceled in 1968. Eventually, the group wrote their own songs and played their
+                                        own instruments.</small></p>
                             </div>
                             <div class="description">
-                                    <p><strong>song: </strong>Daydream Believer <small class="song-text">- The song returned to the Hot 100 for a third time in 1986 when a re-tooled version by the reunited Monkees peaked at #79.</small></p>
-                             </div>
-                             <div class="description">
-                                    <p><strong>song: </strong>I'm A Believer <small class="song-text">- This was The Monkees second single, after "Last Train To Clarksville." It was released during the first season of their TV show.</small></p>
-                             </div>
-                             <div class="description">
-                                    <p><strong>song: </strong>Stepping Stone <small class="song-text">- Monkees keyboardist/bass guitarist Peter Tork on the song's relevance: "The songs that we got [in the '60s] were really songs of some vigor and substance. '(I'm Not Your) Stepping Stone' is not peaches and cream. It comes down hard on the subject, poor girl. And the weight of the song is indicated by the fact that the Sex Pistols covered it. Anybody trying to write ''60s songs' now thinks that you have to write '59th St. Bridge.' [Sings] 'Feeling groovy!' Which is an okay song, but has not got a lot of guts. 'Stepping Stone' has guts."</small></p>
-                             </div>
+                                <p><strong>song: </strong>Daydream Believer <small class="song-text">- The song
+                                        returned to the Hot 100 for a third time in 1986 when a re-tooled version by
+                                        the reunited Monkees peaked at #79.</small></p>
+                            </div>
+                            <div class="description">
+                                <p><strong>song: </strong>I'm A Believer <small class="song-text">- This was The
+                                        Monkees second single, after "Last Train To Clarksville." It was released
+                                        during the first season of their TV show.</small></p>
+                            </div>
+                            <div class="description">
+                                <p><strong>song: </strong>Stepping Stone <small class="song-text">- Monkees
+                                        keyboardist/bass guitarist Peter Tork on the song's relevance: "The songs that
+                                        we got [in the '60s] were really songs of some vigor and substance. '(I'm Not
+                                        Your) Stepping Stone' is not peaches and cream. It comes down hard on the
+                                        subject, poor girl. And the weight of the song is indicated by the fact that
+                                        the Sex Pistols covered it. Anybody trying to write ''60s songs' now thinks
+                                        that you have to write '59th St. Bridge.' [Sings] 'Feeling groovy!' Which is an
+                                        okay song, but has not got a lot of guts. 'Stepping Stone' has guts."</small></p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -180,13 +181,13 @@
 
     <!--javascript/jquery-->
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
         crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-        crossorigin="anonymous"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
+    <!--myMusicScript-->
+    <script src="assets/js/controller.js"></script>
 </body>
 
 
