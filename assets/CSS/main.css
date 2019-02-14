@@ -5,7 +5,7 @@
 }
 
 .navbar-dark .navbar-brand {
-    color: white;
+    color: #c75000;
 }
 
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
@@ -13,7 +13,11 @@
 }
 
 .navbar-dark .navbar-nav .nav-link {
-     color: white; 
+     color: #c75000; 
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ff4600;
 }
 
 .navbar-dark .navbar-toggler-icon {
@@ -44,12 +48,14 @@
     }
     .bg-dark-brown {
         background-color: #2f1000;
+        color: #c75000;
     }
     .bg-brown {
         background-color: #621b00;
     }
     .bg-soft-brown {
         background-color: #945600;
+        color: #000;
     }
     .bg-orange {
         background-color: #c75000;
@@ -69,7 +75,7 @@
     font-size: 5em;
     margin: 25px 0 0;
     padding: 0;
-    color: whitesmoke;
+    color: #c75000;
     background-color: rgba(0,0,0,0.7);
 }
 
@@ -104,8 +110,9 @@
 }
 
 /*footer*/
+
 footer {
-    background-color: rgba(0,0,0,0.7);
+    background-color: #000;
     text-align: center;
     color: lightgray;
     padding-bottom: 1.5rem;
@@ -114,6 +121,8 @@ footer {
     width: 100%;
     height: 100px;
 }
+
+
 footer h5 {
     margin: 1rem 0;
     font-size: .8rem;
@@ -132,7 +141,7 @@ footer h5 {
 }
 
 .footer-link:hover {
-    color: black;
+    color: #c75000;
     text-decoration: none;
 }
 
@@ -149,7 +158,7 @@ footer a {
 }
 
 .social-link:hover {
-    color: black;
+    color: #c75000;
 }
 
 
@@ -160,6 +169,7 @@ html, body {
     margin: 0;
     height: 100%;
     overflow-x: hidden;
+    background-color: #000;
 }
 
 body {
@@ -213,6 +223,17 @@ body {
 .alert {
     width: 90%;
     margin:0 5%;
+    border-left: solid 2px #ff4600;
+    border-right: solid 2px #ff4600;
+    border-bottom: 0;
+    border-top: 0;
+    background-color: #d83b00;
+    color: #000;
+}
+
+
+.alert a {
+    color: whitesmoke;
 }
 
 /*page layout*/
@@ -302,16 +323,7 @@ form label {
 }
 
 
-/*alert*/
 
-.alert {
-    border-left: solid 2px;
-    border-right: solid 2px;
-}
-
-.alert a {
-    color: black;
-}
 
     /*Queries*/
 
@@ -339,4 +351,13 @@ form label {
         z-index: 1;
         background-color: #000;
     }
+
+    /*footer dimensions on moblie*/
+    footer {
+        height: auto;
+    }
+    footer h5 {
+        margin: 0;
+    }   
+    
 }
