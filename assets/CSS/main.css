@@ -22,19 +22,42 @@
 
 .navbar {
     margin-bottom: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
-    z-index: 1;
     border: 0;
 }
 
-.bg-custom {
-    background-color: rgba(0,0,0,0.7);
+.navbar-landing {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
+/*-bg colours*/
+
+    /*navbar invis*/
+    .bg-custom {
+        background-color: rgba(0,0,0,0.7);
+    }
+    /*navbar solid*/
+    .bg-solid {
+        background-color: #000!important;
+    }
+    .bg-dark-brown {
+        background-color: #2f1000;
+    }
+    .bg-brown {
+        background-color: #621b00;
+    }
+    .bg-soft-brown {
+        background-color: #945600;
+    }
+    .bg-orange {
+        background-color: #c75000;
+    }
+
 
 /*landing page*/
+
 .home-container {
     text-align: center;
     width: 100%;
@@ -182,7 +205,7 @@ body {
 }
 
 .section-position {
-    padding-top: 100px;
+    padding-top: 40px;
 }
 
 
@@ -273,6 +296,22 @@ form label {
     padding:0;
 }
 
+.audio-controls button, .description p {
+    
+
+}
+
+
+/*alert*/
+
+.alert {
+    border-left: solid 2px;
+    border-right: solid 2px;
+}
+
+.alert a {
+    color: black;
+}
 
     /*Queries*/
 
@@ -294,5 +333,10 @@ form label {
 
     .song-text {
         display: none;
+    }
+
+    .navbar {
+        z-index: 1;
+        background-color: #000;
     }
 }
