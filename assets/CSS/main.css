@@ -98,17 +98,27 @@
 
 .centralWelcome .btn-info {
     margin-top: 1.5rem;
-    background-color: #444;
-    border: 1px solid black;
+    background-color: #2f1000;
+    border: 1px solid #c75000;
+    color: #c75000;
     transition: all 0.5s;
 }
 
 .centralWelcome .btn-info:hover {
-    background-color: #666;
-    border: 1px solid #222;
-    color: #222;
+    background-color: #c75000;
+    border: 1px solid #2f1000;
+    color: #2f1000;
 }
 
+.btn-info:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255,70,0,.5);
+}
+
+.btn-info:not(:disabled):not(.disabled):active {
+    color: #ff4600;
+    background-color: #000;
+    border-color: #ff4600;
+}
 /*footer*/
 
 footer {
@@ -299,7 +309,13 @@ form label {
 
 .music-btn {
     font-size: 1.8rem;
-    color: darkblue;
+    color: #ff8d62;
+    transition: all .5s;
+}
+
+.btn:hover {
+    color: #ff4600;
+    text-decoration: none;
 }
 
 .description {
@@ -316,14 +332,6 @@ form label {
     min-height: 80px;
     padding:0;
 }
-
-.audio-controls button, .description p {
-    
-
-}
-
-
-
 
     /*Queries*/
 
