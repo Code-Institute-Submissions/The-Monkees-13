@@ -301,7 +301,8 @@ form label {
     }
 
 .carousel-caption {
-    color: red;
+    color: #ff4600;
+    text-shadow: 2px 2px black;
 }
 
 
@@ -326,6 +327,12 @@ form label {
 .description p {
     font-size: .9rem;
     margin: 0;
+    padding: 6px;
+}
+
+hr {
+     margin-top: 0;
+     margin-bottom: 0;
 }
 
 .audio-controls {

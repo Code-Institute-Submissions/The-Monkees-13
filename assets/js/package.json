@@ -1,0 +1,12 @@
+{
+  "name": "FirstMilestoneProject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mattmarc44/The-Monkees.git",
+  "author": "Matt Titmuss <45769440+mattmarc44@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.3.0",
+    "jquery": "^3.3.1"
+  }
+}
