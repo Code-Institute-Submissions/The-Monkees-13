@@ -47,8 +47,9 @@ As a fan, I want to connect with other users, to discuss songs and shows etc.
 - disscussion page/ comments section, priority = 3
 
 #### wireframe
-I have kept the wirframes greyscale as I don't want any planned colour schemes to clash with any album art/provided imagery. 
+(initial)I have kept the wirframes greyscale as I don't want any planned colour schemes to clash with any album art/provided imagery. 
 
+wireframes made usining balsamiq and saved in .bmpr format
 
 ## Features
 
@@ -68,6 +69,9 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
+
+- [node_modules/dependancy managent](https://yarnpkg.com/)
+    - developing the project locally I was using yarn for depency management and referencing bootstrap files etc. using <link href="node_modues/bootstrap/dist/css/bootstrap.mi.css" rel="stylesheet"> and other files and scripts. However when deploying on gh pages it would throw errors and so CDN's have been used.
 
 
 ## Testing
@@ -98,6 +102,8 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
+I decided to use github pages to deploy this project as suggested and taught via the course. The only issue I had when deploying was my node_modules not displaying as described earlier in the technolgies section.
+
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
@@ -105,7 +111,6 @@ In particular, you should provide all details of the differences between the dep
 - Different configuration files?
 - Separate git branch?
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
 
 
 ## Credits
