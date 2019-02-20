@@ -372,6 +372,10 @@ hr {
     width: 320px;
     height: 240px;
 }
+.carousel-inner > .item > img {
+    width:640px;
+    height:360px;
+  }
 
     /*Queries*/
 
@@ -395,7 +399,7 @@ hr {
     .hidden-btn {
         display: none;
     }
-    
+
     .section-position {
         padding-top: 10px;
     }    

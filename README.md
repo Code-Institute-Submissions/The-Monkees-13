@@ -141,7 +141,9 @@ https://stackoverflow.com/questions/19790506/multiple-audio-html-auto-stop-other
 
 I decided to use github pages to deploy this project as suggested and taught via the course. The only issue I had when deploying was my node_modules not displaying as described earlier in the technolgies section.
 
-This being a front-end only project I had little trouble in deployment. No changes immediately obvious from local development.
+This being a front-end only project I had little trouble in deployment. The only issue was opening the site on my android it displayed differently than the dev tools sim.
+I fixed via a hidden class on small screens to tidy it up.
+
 
 
 
