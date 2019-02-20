@@ -231,6 +231,9 @@ body {
     padding-top: 40px;
 }
 
+h2 {
+    margin-top: 1rem;
+}
 
 /*alerts*/
 .alert {
@@ -323,6 +326,7 @@ form label {
 .carousel-item {
     overflow: hidden;
     width: 100%;
+    height:500px;
     }
 
 .carousel-item img {
@@ -341,6 +345,10 @@ form label {
     font-size: 1.8rem;
     color: #ff8d62;
     transition: all .5s;
+}
+
+.btn.focus, .btn:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0,0,0,.25);
 }
 
 .btn:hover {
@@ -395,6 +403,7 @@ hr {
 }
 
 @media(max-width:574px) {
+    /*general*/
     .hidden-btn {
         display: none;
     }
@@ -403,10 +412,15 @@ hr {
         padding-top: 10px;
     }    
 
+    /*music*/
     .music-btn {
         font-size: 1.2rem;
     }
 
+    /*carousel*/
+    .carousel-item {
+        height:250px;
+        }
 
     .navbar {
         z-index: 1;
