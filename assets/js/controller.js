@@ -60,3 +60,13 @@ document.getElementById("volUpFour").addEventListener('click', function(){
 document.getElementById("volDowFour").addEventListener('click', function(){
     musicFour.volume -= 0.1;
 });
+
+//this code is from stack overflow alexander farkas
+document.addEventListener('play', function(e){
+    var audios = document.getElementsByTagName('audio');
+    for(var i = 0, len = audios.length; i < len;i++){
+        if(audios[i] != e.target){
+            audios[i].pause();
+        }
+    }
+}, true);
