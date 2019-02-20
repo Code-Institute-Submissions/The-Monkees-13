@@ -19,7 +19,7 @@ definition = A home site for a rock band.
 value = music to the user and publicity to the band.
 
 #### User stories
-As a fan, I want to listen to music, to enjoy a band I like.
+As a fan, I want to listen to music, to enjoy a band I like. 
 As a fan, I want to follow my band, so I can keep up to date on what they're doing.
 As a fan, I want to be notified on updates, so that I can keep up on any news.
 ..* As a fan, I want to opt in/out of this functionality, so I'm not annoyed.
@@ -50,6 +50,8 @@ As a fan, I want to connect with other users, to discuss songs and shows etc.
 (initial)I have kept the wirframes greyscale as I don't want any planned colour schemes to clash with any album art/provided imagery. 
 
 wireframes made usining balsamiq and saved in .bmpr format
+
+wireframes changed to pdf for ease.
 
 ## Features
 
@@ -126,6 +128,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 6. General:
     1. check all break points function and displays on different devices on dev tools
     2. rerun previous tests on sizes mobile/tablet.
+    3. rerun tests from deployed gh page.
 
 
 mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
@@ -161,6 +164,8 @@ I fixed via a hidden class on small screens to tidy it up.
 ### Media
 The photos used in this site were obtained from:
      https://github.com/Code-Institute-Org/project-assets (Provided assets)
+The fonts used were from google fonts: 
+    https://fonts.google.com/?selection.family=Coiny
 
 ### Acknowledgements
 
