@@ -86,13 +86,22 @@
                         <div class="col-sm">
                             <div class="position-two">
                                 <form action="#">
+                                    <div>
                                     <label for="e-mail">Your E-mail: </label><br>
-                                    <input type="e-mail" name="e-mail" id="e-mail" placeholder="e-mail"><br>
+                                    <input type="e-mail" name="e-mail" id="e-mail" placeholder="e-mail" required><br>
+                                    </div>
+
+                                    <div>
                                     <label for="reason-text">Subject: </label><br>
                                     <input type="text" name="reason-text" id="reason-text" placeholder="reason for contact"><br>
+                                    </div>
+                                    
+                                    <div>
                                     <label for="contact-text">Message: </label><br>
-                                    <textarea name="contact-text" id="contact-text" cols="30" rows="10" placeholder="How can we help?"></textarea><br>
-                                    <input type="submit" class="btn btn-dark">
+                                    <textarea name="contact-text" id="contact-text" cols="30" rows="10" placeholder="How can we help?" required></textarea><br>
+                                    </div>
+                                    
+                                    <button class="btn" type="submit">Send</button>
                                 </form>
                             </div>
                         </div>

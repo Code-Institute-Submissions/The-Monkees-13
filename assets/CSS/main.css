@@ -270,9 +270,32 @@ form {
 }
 
 form input, form textarea {
-    width: 80%;
+    width: 60%;
     padding: 5px 2px;
     margin: 5px 0;
+    border-radius: 2px;
+    background: #a17b46;
+    border: 1px solid #2f1000;
+    color: #2f1000;
+    padding: 0.5rem 1rem;
+    line-height: 1.2rem;
+}
+
+form .btn {
+    background-color: #2f1000;
+    color: #ff8d62;
+    border: 1px solid #2f1000;
+    width: 60%;
+}
+
+form .btn:hover {
+    background-color: #2f1000;
+    color: #ff4600;
+    border: 1px solid #ff4600;
+}
+
+form input::placeholder, form textarea::placeholder {
+    color: #755a35;
 }
 
 form input[type="submit"] {
@@ -280,7 +303,10 @@ form input[type="submit"] {
 }
 
 form label {
+    font-size: .9rem;
+    line-height: 2rem;
     margin-bottom: 0;
+    padding: .5rem 0;
 }
 
 
@@ -365,6 +391,15 @@ hr {
     .navbar {
         z-index: 1;
         background-color: #000;
+    }
+
+    /*contact form*/
+    form input, form textarea {
+        width: 80%;
+    }
+
+    label {
+        padding:0;
     }
 
     /*footer dimensions on moblie*/
