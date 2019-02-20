@@ -59,9 +59,21 @@ In this section, you should go over the different parts of your project, and des
 ..* This navbar is similar to the one bootstrap demo's but with some diferences in breakpoints for burger button. 
 - image carousel
 ..* The image carousel uses bootstrap css transitions to create a fluid gallery that doesn't take up too much real estate.
+- Video
+..* In the gallery the video is display using html5 video tag.
+- music
+..* The music is played using an audio tag with div tags for buttons. These are targeted with Javascript, (fixed bug where music plays over ech other with help from stackoverflow)
+- alert
+..* Bootstrap alert to direct people to the contact page. To promote avalibilty.
+- contact form
+..* Uses required tags to prevent empty fieldsets (frontend form only/ doesn't actually do anything)
 
 ### Features Left to Implement
-- Another feature idea
+- Calender
+- Band related articles
+- Create registered accounts
+- merch store
+- disscussion page/ comments section
 
 ## Technologies Used
 
@@ -73,43 +85,63 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - [node_modules/dependancy managent](https://yarnpkg.com/)
     - developing the project locally I was using yarn for depency management and referencing bootstrap files etc. using <link href="node_modues/bootstrap/dist/css/bootstrap.mi.css" rel="stylesheet"> and other files and scripts. However when deploying on gh pages it would throw errors and so CDN's have been used.
 
+- [bootstrap 4.3.1](https://getbootstrap.com/)
+    - bootstrap is uses heavily for grid layout and several features.
+
+- [js] (https://www.javascript.com/)
+    - Used to create buttons for the audio tag as the default player was salty.
+
+- [html5/css3]
+    -naturally
 
 ## Testing
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
 1. Contact form:
     1. Go to the "Contact Us" page
     2. Try to submit the empty form and verify that an error message about the required fields appears
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-1. Navbar:
-    1. Open index page
+2. Navbar:
+    1. Open pages
     2. hover over links to see hover classes
-    3. collapse browser to see breakpoint for burger-button, test browser button
-    4. 
+    3. collapse browser to see breakpoint for burger-button, test burger button
+    4. test all links in both states
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+3. Music:
+    1. Hover over buttons to check class changes
+    2. play each song: 
+    ..*test pause
+    ..*test vol up
+    ..*test vol down
+    3.try and play other music at the same time
+    4. repeat with other files
+
+4. Images:
+    1. check all images display on carousel
+    2. check directional buttons function correctly
+
+5. Video:
+    1. check video functinality
+
+6. General:
+    1. check all break points function and displays on different devices on dev tools
+    2. rerun previous tests on sizes mobile/tablet.
+
+
+mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+
+-Initially discovered that i could play all music at once. had to find a solution as my js knowledge is limited. 
+https://stackoverflow.com/questions/19790506/multiple-audio-html-auto-stop-other-when-current-is-playing-with-javascript/19792168
+
+- More advanced carousels would disply incorrectly or sometimes not at all. Decided to simplify.
+
+-yarn files were not working with github pages and so I dumbed down to CDN's for deployment
 
 ## Deployment
 
 I decided to use github pages to deploy this project as suggested and taught via the course. The only issue I had when deploying was my node_modules not displaying as described earlier in the technolgies section.
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+This being a front-end only project I had little trouble in deployment. No changes immediately obvious from local development.
 
 
 
