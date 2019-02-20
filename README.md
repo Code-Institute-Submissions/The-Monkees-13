@@ -172,3 +172,7 @@ The fonts used were from google fonts:
 I received inspiration for this project from:
 - silversunpickups.com
 - www.entershikari.com
+
+### Notes
+
+- all footer links are hypothetical and for design only, index page footer links to wikipedia entry as proof of concept.

@@ -150,6 +150,7 @@ footer h5 {
     transition: all 0.5s;
 }
 
+
 .footer-link:hover {
     color: #c75000;
     text-decoration: none;
@@ -159,6 +160,7 @@ footer h5 {
 /*social links in footer*/
 
 footer a {
+    color: whitesmoke;
     font-size: 1.1rem;
     margin: 0 .2rem 10px;
 }
