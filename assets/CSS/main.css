@@ -392,6 +392,10 @@ hr {
 }
 
 @media(max-width:574px) {
+    .hidden-btn {
+        display: none;
+    }
+    
     .section-position {
         padding-top: 10px;
     }    
@@ -405,7 +409,7 @@ hr {
         z-index: 1;
         background-color: #000;
     }
-    
+
     /*contact form*/
     form input, form textarea {
         width: 80%;
