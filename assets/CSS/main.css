@@ -22,6 +22,8 @@
 
 .navbar-dark .navbar-nav .nav-link.active{
     color: #ff4600;
+    border-bottom: 2px solid #ff4600;
+    border-radius: 8%;
 }
 
 .navbar-dark .navbar-toggler-icon {
@@ -44,6 +46,11 @@
 .navbar-brand{
     font-size: 1.6rem;
 }
+
+.navbar-dark .navbar-brand:hover {
+    color: #c75000;
+}
+
 /*-bg colours*/
 
     /*navbar invis*/
