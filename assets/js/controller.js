@@ -4,7 +4,7 @@ let musicTwo = document.getElementById("musicTwo");
 let musicThree = document.getElementById("musicThree");
 let musicFour = document.getElementById("musicFour");
 
-
+//Theres almost definately a better way to do this but my knowledge on javascript right now is limited
 //first music controls
 document.getElementById("playOne").addEventListener('click', function(){
     musicOne.play();

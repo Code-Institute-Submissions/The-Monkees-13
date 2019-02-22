@@ -20,6 +20,10 @@
     color: #ff4600;
 }
 
+.navbar-dark .navbar-nav .nav-link.active{
+    color: #ff4600;
+}
+
 .navbar-dark .navbar-toggler-icon {
     background-image: url(../images/my_burger_bar.png);
 }
@@ -35,6 +39,10 @@
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.navbar-brand{
+    font-size: 1.6rem;
 }
 /*-bg colours*/
 

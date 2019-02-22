@@ -4,6 +4,8 @@ This will be a Band page for "The Monkees" with the aims of creating 4-5 pages f
 
 I aim to start with a landing page directing users to either information about the band or immediately to the musical content. From here there will be several other pages including images,video or contact. Hopefully designed to appeal its target audience of 60's rock fans.
 
+Finished site on Github Pages: https://mattmarc44.github.io/The-Monkees/
+
 ## UX
  
 #### strategy
